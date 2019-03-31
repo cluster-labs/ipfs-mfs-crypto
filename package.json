@@ -1,8 +1,8 @@
 {
-  "name": "ipfs-mfs",
-  "version": "0.10.3",
-  "description": "JavaScript implementation of the IPFS Mutable File System",
-  "leadMaintainer": "Alex Potsides <alex.potsides@protocol.ai>",
+  "name": "ipfs-mfs-crypto",
+  "version": "0.0.1",
+  "description": "JavaScript implementation of the IPFS Mutable File System supporting out of the box crypto operations",
+  "leadMaintainer": "Vaibhav Saini(vasa) <vasa@towardsblockchain.com>",
   "main": "src/index.js",
   "browser": {
     "fs": false,
@@ -22,20 +22,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ipfs/js-ipfs-mfs.git"
+    "url": "git+https://github.com/cluster-labs/ipfs-mfs-crypto.git"
   },
   "keywords": [
-    "IPFS"
+    "IPFS",
+    "cluster-labs",
+    "towardsblockchain",
+    "mfs",
+    "crypto",
+    "encryption",
+    "decryption"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ipfs/js-ipfs-mfs/issues"
+    "url": "https://github.com/cluster-labs/ipfs-mfs-crypto/issues"
   },
   "engines": {
     "node": ">=8.0.0",
     "npm": ">=3.0.0"
   },
-  "homepage": "https://github.com/ipfs/js-ipfs-mfs#readme",
+  "homepage": "https://github.com/cluster-labs/ipfs-mfs-crypto#readme",
   "devDependencies": {
     "aegir": "^18.0.2",
     "chai": "^4.2.0",
@@ -75,6 +81,7 @@
     "stream-to-pull-stream": "^1.7.2"
   },
   "contributors": [
+    "Vaibhav Saini(vasa) <vasa@towardsblockchain.com>",
     "Alan Shaw <alan.shaw@protocol.ai>",
     "Alex Potsides <alex@achingbrain.net>",
     "David <github@kattfest.se>",
