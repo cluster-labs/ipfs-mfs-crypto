@@ -1,15 +1,6 @@
-# MFS (Mutable File System) JavaScript Implementation
+# MFS(Mutable File System) JavaScript Implementation with Crypto
 
-[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
-[![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
-[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![Build Status](https://flat.badgen.net/travis/ipfs/js-ipfs-mfs)](https://travis-ci.com/ipfs/js-ipfs-mfs)
-[![Code Coverage](https://codecov.io/gh/ipfs/js-ipfs-mfs/branch/master/graph/badge.svg)](https://codecov.io/gh/ipfs/js-ipfs-mfs)
-[![Dependency Status](https://david-dm.org/ipfs/js-ipfs-mfs.svg?style=flat-square)](https://david-dm.org/ipfs/js-ipfs-mfs)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard)
-![](https://img.shields.io/badge/npm-%3E%3D3.0.0-orange.svg?style=flat-square)
-![](https://img.shields.io/badge/Node.js-%3E%3D8.0.0-orange.svg?style=flat-square)
+[![](https://img.shields.io/badge/made%20by-Cluster%20Labs-blue.svg?style=flat-square)](https://clusterlabs.io)
 
 > JavaScript implementation of the IPFS Mutable File System
 
@@ -17,7 +8,7 @@
 
 ## Lead Maintainer
 
-[Alex Potsides](https://github.com/achingbrain)
+[Vaibhav Saini](https://github.com/vasa-develop)
 
 ## Table of Contents
 
@@ -58,9 +49,9 @@ const mfs = require('ipfs-mfs')
 Loading this module through a script tag will make the `mfs` obj available in the global namespace.
 
 ```html
-<script src="https://npmcdn.com/ipfs-mfs/dist/index.min.js"></script>
+<script src="https://npmcdn.com/ipfs-mfs-crypto/dist/index.min.js"></script>
 <!-- OR -->
-<script src="https://npmcdn.com/ipfs-mfs/dist/index.js"></script>
+<script src="https://npmcdn.com/ipfs-mfs-crypto/dist/index.js"></script>
 ```
 
 ### A note on concurrency
@@ -79,11 +70,9 @@ If you are using [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/
 
 All are welcome, please join in!
 
-This repository falls under the IPFS [Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
+<!-- This repository falls under the IPFS [Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md). -->
 
-Open an [issue](https://github.com/ipfs/js-ipfs-mfs/issues) or send a [PR](https://github.com/ipfs/js-ipfs-mfs/pulls) - see [CONTRIBUTING.md](./CONTRIBUTING.md) for how to make sure your branch is ready for PRing.
-
-[![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md)
+Open an [issue](https://github.com/cluster-labs/ipfs-mfs-crypto/issues) or send a [PR](https://github.com/cluster-labs/ipfs-mfs-crypto/pulls) - see [CONTRIBUTING.md](./CONTRIBUTING.md) for how to make sure your branch is ready for PRing.
 
 ## Changelog
 
