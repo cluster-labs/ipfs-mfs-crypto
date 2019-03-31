@@ -33,7 +33,7 @@
 ### Use in Node.js
 
 ```JavaScript
-const mfs = require('ipfs-mfs')
+const mfs = require('ipfs-mfs-crypto')
 ```
 
 ### Use in a browser with browserify, webpack or any other bundler
@@ -41,7 +41,7 @@ const mfs = require('ipfs-mfs')
 The code published to npm that gets loaded on require is an ES5 transpiled version with the right shims added. This means that you can require it and use with your favourite bundler without having to adjust asset management process.
 
 ```JavaScript
-const mfs = require('ipfs-mfs')
+const mfs = require('ipfs-mfs-crypto')
 ```
 
 ### Use in a browser using a script tag
