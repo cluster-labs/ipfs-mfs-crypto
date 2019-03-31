@@ -58,6 +58,7 @@
   "dependencies": {
     "async": "^2.6.1",
     "cids": "~0.5.5",
+    "crypto": "^1.0.1",
     "debug": "^4.1.0",
     "filereader-stream": "^2.0.0",
     "hamt-sharding": "~0.0.2",
@@ -81,7 +82,7 @@
     "stream-to-pull-stream": "^1.7.2"
   },
   "contributors": [
-    "Vaibhav Saini(vasa) <vasa@towardsblockchain.com>",
+    "Vaibhav Saini <vasa@towardsblockchain.com>",
     "Alan Shaw <alan.shaw@protocol.ai>",
     "Alex Potsides <alex@achingbrain.net>",
     "David <github@kattfest.se>",

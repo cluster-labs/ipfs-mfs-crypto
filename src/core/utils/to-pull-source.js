@@ -9,6 +9,8 @@ const values = require('pull-stream/sources/values')
 const log = require('debug')('ipfs:mfs:utils:to-pull-source')
 const waterfall = require('async/waterfall')
 
+const { encrypt }  = require('../../core/utils/crypto/symmetric')
+
 const toPullSource = (content, options, callback) => {
   if (!content) {
     return callback(new Error('paths must start with a leading /'))
@@ -17,6 +19,13 @@ const toPullSource = (content, options, callback) => {
   // Buffers
   if (Buffer.isBuffer(content)) {
     log('Content was a buffer')
+    
+    //<code>
+    if(options.crypto){
+      let {algorithm, key, iv} = options.crypto;
+      content = Buffer.from(JSON.stringify(encrypt(content, algorithm, key, iv)))
+    }
+    //</code>
 
     if (!options.length && options.length !== 0) {
       options.length = options.length || content.length
@@ -28,7 +37,6 @@ const toPullSource = (content, options, callback) => {
   // Paths, node only
   if (typeof content === 'string' || content instanceof String) {
     log('Content was a path')
-
     // Find out the file size if options.length has not been specified
     return waterfall([
       (done) => options.length ? done(null, {
