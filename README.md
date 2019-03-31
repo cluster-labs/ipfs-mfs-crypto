@@ -27,7 +27,7 @@
 ### npm
 
 ```sh
-> npm i ipfs-mfs
+> npm i ipfs-mfs-crypto
 ```
 
 ### Use in Node.js
