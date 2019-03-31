@@ -35,7 +35,7 @@
 ```JavaScript
 const mfs = require('ipfs-mfs-crypto')
 ```
-***See [`encrypt.spec.js`](./blob/master/test/encrypt.spec.js) and [`decrypt.spec.js`](./blob/master/test/decrypt.spec.js) for encryption and decryption methods.
+***See [`encrypt.spec.js`](./blob/master/test/encrypt.spec.js) and [`decrypt.spec.js`](./blob/master/test/decrypt.spec.js) for encryption and decryption methods.***
 
 ### Use in a browser with browserify, webpack or any other bundler
 
