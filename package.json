@@ -59,6 +59,7 @@
     "async": "^2.6.1",
     "cids": "~0.5.5",
     "crypto": "^1.0.1",
+    "crypto-symmetric": "0.0.1",
     "debug": "^4.1.0",
     "filereader-stream": "^2.0.0",
     "hamt-sharding": "~0.0.2",
